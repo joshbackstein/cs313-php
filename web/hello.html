@@ -2,8 +2,60 @@
 <html>
   <head>
     <title>01 Prove</title>
+    <style>
+      #hello {
+        /* style */
+        border-radius: 10px;
+        background-color: #f00;
+
+        /* size */
+        height: 50%;
+        width: 30%;
+
+        /* position */
+        position: fixed;
+        left: 50%;
+        top: 50%;
+
+        /* animation */
+        animation: spin 15s linear infinite;
+        /*
+        Because of the other transforms to correctly center the div,
+        we need to change the transform origin to account for it.
+        */
+        transform-origin: top left;
+      }
+
+      /* center text within div */
+      #hello p {
+        margin: 0;
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+      }
+
+      /* animation */
+      @keyframes spin {
+        0% {
+          background-color: red;
+          transform: rotate(0deg) translate(-50%, -50%);
+        }
+        50% {
+          background-color: blue;
+          transform: rotate(360deg) translate(-50%, -50%);
+        }
+        100% {
+          background-color: red;
+          transform: rotate(0deg) translate(-50%, -50%);
+        }
+      }
+    </style>
   </head>
   <body>
-    <p>Hello World.</p>
+    <div id="hello">
+      <p>Hello World.</p>
+    </div>
   </body>
 </html>
