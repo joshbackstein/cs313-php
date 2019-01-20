@@ -1,0 +1,113 @@
+body {
+  background: #757575;
+  color: #33b1f2;
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+}
+
+h1.title {
+  background: #585858;
+  color: #33b1f2;
+  height: 60px;
+  line-height: 60px;
+  margin: auto;
+  text-align: center;
+}
+
+div.container {
+  border: 1px solid #585858;
+  border-radius: 5px;
+  box-shadow: 0 5px 30px #333333;
+  margin: auto;
+  text-align: center;
+  width: 960px;
+}
+
+div.footer {
+  font-size: 0.9em;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+div.nav {
+  text-align: center;
+}
+
+#nav-title {
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+#nav-items a {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+div.content-container-outer {
+  border-radius: 5px;
+  padding: 2px 10px 10px 10px;
+  position: relative;
+}
+
+div.content-container-inner {
+  background: #616163;
+  border-radius: 5px;
+  box-sizing: border-box;
+  display: flex;
+  padding: 10px;
+  width: 100%;
+}
+
+div.content {
+  font-size: 20px;
+  height: 100%;
+  width: 50%;
+}
+
+img#profile-picture {
+  bottom: 0;
+  border-radius: 25px;
+  box-shadow: 0 3px 10px #111111;
+  display: block;
+  height: 240px;
+  left: 0;
+  margin: auto;
+  right: 50%;
+  top: 0;
+  width: 240px;
+}
+
+p#profile-picture-attribution {
+  font-size: 1rem;
+}
+
+div.assignments {
+  border: 1px solid #585858;
+  border-radius: 5px;
+  box-shadow: 0 5px 30px #333333;
+  margin: auto;
+  text-align: center;
+  width: 420px;
+}
+
+ul.assignments {
+  font-size: 18px;
+  list-style: square inside url("/02prove/images/folder-blue-16.png");
+  padding: 0;
+  position: relative;
+}
+
+a {
+  color: #00c2f5;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #95e7fe;
+}
+
+hr {
+  border-color: #999999;
+  width: 98%;
+}
