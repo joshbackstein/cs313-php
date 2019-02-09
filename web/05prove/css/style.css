@@ -1,0 +1,49 @@
+html,
+body {
+  height: 100%;
+}
+
+.login {
+  margin: auto;
+  max-width: 300px;
+  padding: 15px;
+  width: 100%;
+}
+
+.login .login-input-container {
+  margin: 0.5em 0;
+}
+
+.login .login-input-container input {
+  width: 100%;
+}
+
+.body-container {
+  min-height: 100%;
+  padding-bottom: 50px;
+  position: relative;
+}
+
+.footer {
+  bottom: 0;
+  height: 40px;
+  line-height: 40px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.content-container {
+  padding: 0.5em;
+}
+
+.content {
+  background-color: #ddd;
+  border-radius: 5px;
+  height: 100%;
+  padding: 1em;
+}
