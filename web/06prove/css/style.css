@@ -1,0 +1,133 @@
+html,
+body {
+  height: 100%;
+}
+
+.login {
+  margin: auto;
+  max-width: 300px;
+  padding: 15px;
+  width: 100%;
+}
+
+.login .login-input-container {
+  margin: 0.5em 0;
+}
+
+.login .login-input-container input {
+  width: 100%;
+}
+
+.body-container {
+  min-height: 100%;
+  padding-bottom: 50px;
+  position: relative;
+}
+
+.footer {
+  bottom: 0;
+  height: 40px;
+  line-height: 40px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.content-container {
+  padding: 0.5em;
+}
+
+.content {
+  border-radius: 5px;
+  height: 100%;
+  padding: 1em;
+}
+
+.padding-sm-top {
+  padding-top: 0.5em;
+}
+
+.padding-sm-bottom {
+  padding-bottom: 0.5em;
+}
+
+.padding-sm-right {
+  padding-right: 0.5em;
+}
+
+.padding-xs-top {
+  padding-top: 0.25em;
+}
+
+.padding-xs-bottom {
+  padding-bottom: 0.25em;
+}
+
+.no-padding-top {
+  padding-top: 0;
+}
+
+.no-padding-bottom {
+  padding-bottom: 0;
+}
+
+.bg-a {
+  background-color: #ddd;
+}
+
+.bg-b {
+  background-color: #ccc;
+}
+
+.top-row {
+  border-radius: 5px 5px 0 0;
+}
+
+.bottom-row {
+  border-radius: 0 0 5px 5px;
+}
+
+.small-card {
+  padding: 0 0.5em 0.5em 0.5em;
+  width: 30%;
+}
+
+.small-card > div {
+  height: 100%;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.half-width {
+  width: 50%;
+}
+
+.hideable-toggler {
+  display: none;
+}
+
+.hideable-toggler ~ label {
+  cursor: pointer;
+}
+
+.hideable-toggler ~ label::before {
+  content: "Show";
+}
+
+.hideable-toggler:checked ~ label::before {
+  content: "Hide";
+}
+
+.hideable-toggler:not(:checked) ~ .hideable {
+  display: none !important;
+}
